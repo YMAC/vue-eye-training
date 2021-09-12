@@ -1,5 +1,15 @@
 <template>
   <div class="home">
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">Eye Training</p>
+        <p class="subtitle">
+          This image is useful for vision training. Watching for 3 minutes every
+          day will restore your eyesight. Please relax and have a look.
+        </p>
+      </div>
+    </section>
+
     <div class="box">
       <div class="is-flex is-justify-content-space-between is-flex-wrap-wrap">
         <div class="field has-addons">
@@ -43,9 +53,7 @@
             <input type="number" v-model="duration" class="input" />
           </div>
           <div class="control">
-            <a class="button is-danger" @click="durationDown">
-              + Cycle 
-            </a>
+            <a class="button is-danger" @click="durationDown"> + Cycle </a>
           </div>
         </div>
       </div>
