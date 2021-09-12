@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b9f39f3d142dcbfa2bcdd182a09da477.js"
+  "/precache-manifest.30b506f50c0aa70a49adca5c4fdfd649.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue202109"});
+workbox.core.setCacheNameDetails({prefix: "vue20210912"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
