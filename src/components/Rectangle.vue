@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Rectangle',
   props: {
     msg: String
   }

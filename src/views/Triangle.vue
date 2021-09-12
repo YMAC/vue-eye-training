@@ -16,7 +16,7 @@ This image is useful for vision training. Watching for 3 minutes every day will 
 import Eye from "@/components/Eye.vue";
 
 export default {
-  name: "About",
+  name: "Triangle",
   components: {
     Eye,
   },
